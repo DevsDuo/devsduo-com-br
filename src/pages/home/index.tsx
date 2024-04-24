@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from "./styles"
 
-import LogoHome from "../../assets/logo_home.png"
+import LogoHome from "../../assets/logo-principal-branca.png"
 
 import LogoHomeResponsive from "../../assets/logo-principal.png"
 
