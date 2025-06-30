@@ -7,8 +7,40 @@ import DevsDuoAutomoveis from "../../assets/projects/devs-duo-automoveis.png"
 import Portfolio from "../../assets/projects/portfolio.png"
 import Luta from "../../assets/projects/luta.png"
 import Quiz from "../../assets/projects/quiz.png"
+import Jubars from '../../assets/projects/jubars.png'
+import Imperio from '../../assets/projects/imperio.png'
 
 export const project_list = [
+    {
+        name: "Jubars",
+        link: "https://jubars.netlify.app",
+        html: true,
+        css: true,
+        js: true,
+        react: true,
+        desc:"A JUBARS é a organização que representa jovens e adolescentes das igrejas batistas do Rio Grande do Sul. Seu foco principal são os acampamentos, que buscam oferecer vivências espirituais, confirmação vocacional e formação de líderes",
+        img: Jubars,
+    },
+    {
+        name: "Imperio Móveis",
+        link: "https://moveisimperio.netlify.app",
+        html: true,
+        css: true,
+        js: true,
+        react: true,
+        desc:"A Império Móveis é uma empresa de móveis que se compromete com o bom atendimento ao cliente e produtos profissionaisEmpresa especializada na fabricação e venda de móveis planejados e sob medida, unindo qualidade, design e funcionalidade para transformar ambientes com estilo e praticidade.",
+        img: Imperio,
+    },
+    {
+        name: "DevsDuo Automóveis",
+        link: "https://chicoautomoveis.netlify.app/",
+        html: true,
+        css: true,
+        js: true,
+        react:  true,
+        desc:"O projeto DevsDuo Automóveis é uma aplicação web em ReactJS que apresenta um catálogo de carros de uma empresa de automóveis. O site não necessita de um servidor externo e mostra de forma simples uma lista de itens.",
+        img:DevsDuoAutomoveis,
+    },
     {
         name: "Cronômetro",
         link: "https://othurdev.github.io/cronometro/",
@@ -79,16 +111,7 @@ export const project_list = [
         desc:"O projeto luta consiste em um jogo de luta, onde um mago enfrente um monstro. O jogo está em fase de manutenção e não está finalizado ainda.",
         img:Luta,
     },
-    {
-        name: "DevsDuo Automóveis",
-        link: "https://chicoautomoveis.netlify.app/",
-        html: true,
-        css: true,
-        js: true,
-        react:  true,
-        desc:"O projeto DevsDuo Automóveis é uma aplicação web em ReactJS que apresenta um catálogo de carros de uma empresa de automóveis. O site não necessita de um servidor externo e mostra de forma simples uma lista de itens.",
-        img:DevsDuoAutomoveis,
-    },
+    
     {
         name: "Portfólio",
         link: "https://devsduo.netlify.app",

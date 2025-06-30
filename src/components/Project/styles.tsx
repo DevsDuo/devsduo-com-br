@@ -22,7 +22,7 @@ export const ProjectPic = styled.div`
 
     img {
         width: 21rem;
-        border-radius: 35px 35px 0px 0px;
+        border-radius: 25px 25px 0px 0px;
     }
 
     a {

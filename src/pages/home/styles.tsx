@@ -64,7 +64,7 @@ export const HelloWorldText = styled.div`
 export const TextsHome = styled.div`
     display: flex;
     flex-direction: column;
-    margin-right:10px;
+    margin-right:0px;
 
     > span {
         text-align: right;
