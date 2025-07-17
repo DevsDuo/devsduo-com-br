@@ -114,7 +114,7 @@ export const project_list = [
     
     {
         name: "Portfólio",
-        link: "https://devsduo.netlify.app",
+        link: "https://devsduo.com.br",
         html: true,
         css: true,
         js: true,
