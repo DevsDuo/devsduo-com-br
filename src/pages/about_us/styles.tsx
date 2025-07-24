@@ -1,0 +1,72 @@
+import styled from "styled-components";
+
+export const AboutContainer = styled.section`
+    padding: 3.1rem;
+    padding-left: 7.5rem;
+    padding-right:3.5rem;
+    scroll-margin-top: 130px;
+    display:flex;
+
+    @media (max-width: 1024px) {
+        padding-top: 0;
+    }
+
+    @media (max-width: 768px) {
+        padding-left: 3.5rem;
+    }
+
+    
+`
+
+export const AboutVertical = styled.div`
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:3rem;
+
+    
+`
+export const PageTitle = styled.div`
+    color: #939;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    padding: 0;
+`
+
+export const AboutHorizontal = styled.div`
+    display:flex;
+
+    > div {
+        color: #F1F1F1;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top:3.5rem;
+        line-height:25px;
+    }
+
+    > img {
+        width:30rem;
+        height:30.5rem;
+    }
+
+    @media (max-width: 1024px) {
+        align-items: center;
+
+        > div {    
+            font-size: 1rem;
+        }
+    }
+
+    @media (max-width: 850px) {
+        flex-direction:column;
+        text-align:center;
+        justify-content:center;
+
+        img {
+            display: none;
+        }
+    }
+`
