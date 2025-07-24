@@ -20,6 +20,7 @@ export const project_list = [
         react: true,
         desc:"A JUBARS é a organização que representa jovens e adolescentes das igrejas batistas do Rio Grande do Sul. Seu foco principal são os acampamentos, que buscam oferecer vivências espirituais, confirmação vocacional e formação de líderes",
         img: Jubars,
+        alt: "jubars"
     },
     {
         name: "Imperio Móveis",
@@ -30,6 +31,7 @@ export const project_list = [
         react: true,
         desc:"A Império Móveis é uma empresa de móveis que se compromete com o bom atendimento ao cliente e produtos profissionaisEmpresa especializada na fabricação e venda de móveis planejados e sob medida, unindo qualidade, design e funcionalidade para transformar ambientes com estilo e praticidade.",
         img: Imperio,
+        alt: "imperio-moveis"
     },
     {
         name: "DevsDuo Automóveis",
@@ -40,6 +42,7 @@ export const project_list = [
         react:  true,
         desc:"O projeto DevsDuo Automóveis é uma aplicação web em ReactJS que apresenta um catálogo de carros de uma empresa de automóveis. O site não necessita de um servidor externo e mostra de forma simples uma lista de itens.",
         img:DevsDuoAutomoveis,
+        alt: "devsduo-auto"
     },
     {
         name: "Cronômetro",
@@ -50,6 +53,7 @@ export const project_list = [
         react: false,
         desc:"Com uma interface simples e amigável, oferecemos um cronômetro digital moderno que atende às suas necessidades, seja para cronometrar atividades esportivas, controlar o tempo de estudos ou simplesmente manter o foco em suas tarefas diárias.",
         img: Cronometro,
+        alt: "cronometro"
     },
     {
         name: "Jogo da Velha",
@@ -60,6 +64,7 @@ export const project_list = [
         react: false,
         desc:"Bem vindo ao projeto Jogo da Velha, seu destino online para desafios emocionantes de Jogo da Velha! Com um design intuitivo e amigável, estamos aqui para trazer diversão clássica direto para o seu navegador.",
         img: JogoDaVelha,
+        alt: "jogo-da-velha"
     },
     {
         name: "Clima",
@@ -70,6 +75,7 @@ export const project_list = [
         react: false,
         desc:"O projeto de Clima é sua fonte completa para informações meteorológicas precisas e atualizadas. Oferecemos uma experiência simplificada para que você possa acessar facilmente dados meteorológicos essenciais.",
         img: Clima,
+        alt: "clima"
     },
     {
         name: "Relógio",
@@ -80,6 +86,7 @@ export const project_list = [
         react: false,
         desc:"O projeto Relógio consiste em trazer facilidade, com um design simples e fácil de usar você pode facilmente acessar a hora que quiser e não perder a hora. Temos relógio digital ou se prefirir, temos também o analógioco!",
         img: Relogio,
+        alt: "relogio"
     },
     {
         name: "Bateria",
@@ -90,6 +97,7 @@ export const project_list = [
         react: false,
         desc:"O projeto de Bateria é a sua plataforma online dedicada ao universo das baterias musicais. Seja você um baterista profissional, entusiasta ou iniciante, oferecemos recursos abrangentes para aprimorar suas habilidades e explorar o mundo cativante da percussão.",
         img:Bateria,
+        alt: "bateria"
     },
     {
         name: "Quiz da Programação",
@@ -100,6 +108,7 @@ export const project_list = [
         react: false,
         desc:"O projeto do Quiz tem perguntas sobre a programação, sobre HTML, CSS e Javascript. Teste seus conhecimentos e veja quantos você acertou!",
         img:Quiz,
+        alt: "quiz"
     },
     {
         name: "Jogo de Luta",
@@ -110,6 +119,7 @@ export const project_list = [
         react: false,
         desc:"O projeto luta consiste em um jogo de luta, onde um mago enfrente um monstro. O jogo está em fase de manutenção e não está finalizado ainda.",
         img:Luta,
+        alt: "jogo-de-luta"
     },
     
     {
@@ -121,5 +131,6 @@ export const project_list = [
         react:  true,
         desc:"O nosso Portfólio é a vitrine online para apresentar nosso trabalho de forma envolvente e profissional. Com um design elegante e intuitivo, o site destaca nossas habilidades, projetos e fala também um pouco sobre nós.",
         img: Portfolio,
+        alt: "devsduo"
     }
 ]   

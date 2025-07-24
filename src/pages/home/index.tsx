@@ -10,7 +10,7 @@ import { Typewriter } from 'react-simple-typewriter';
 const Home: React.FC = () => {
   return(
     <S.ContainerHome id='home'>
-        <S.LogoHome src={LogoHome} />
+        <S.LogoHome src={LogoHome} alt='logo' />
         <S.LogoHomeResponsive src={LogoHomeResponsive} />
         <S.TextsHome>
             <S.HelloWorldText>
